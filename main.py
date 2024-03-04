@@ -132,5 +132,5 @@ def predict(data:Diamond):
     return pickle_model.predict(test_data)[0]
 
 
-if name == 'main':
+if __name__ == '__main__':
     uvicorn.run(app,port=8000)
