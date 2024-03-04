@@ -1,0 +1,9 @@
+datasets==2.*
+fastapi[all]==0.45.0
+requests==2.27.*
+uvicorn[standard]==0.17.*
+numpy>=1.9.2
+scikit-learn>=0.18
+matplotlib>=1.4.3
+plotly==5.19.0
+pandas>=0.19
